@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'sudo sh $PWD/hello.sh'
+                sh 'ls -lrt'
             }
         }
         stage('Test') {
