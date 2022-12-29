@@ -1,6 +1,6 @@
 #/bin/bash
 echo "Hello World"
-backup_dir=/opt/backup_dir
+backup_dir=/tmp/backup_dir
 create_dir() {
     mkdir -p $backup_dir
     mkdir -p $backup_dir/sql_backup
