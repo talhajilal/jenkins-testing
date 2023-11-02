@@ -1,0 +1,7 @@
+variable "key_name" {
+    description = "The name of the key to use for SSH access."
+  }
+variable "key_value" {
+    description = "ssh public key value"
+    default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDAAE4eF5yqhVQxhznAoFLJv4O4Jyhcl3dm8v2N3fagDMKrBxuz50D8BCW0JmZisWH+lCXXQmxYKoyu8e0yCud8TXqpCY6xChkeHyQnuriRuwngbzpVi4HgQf1jTdurYpqpDq8e6pwp27KAIB80Q4neQRTk7Uo1eYi5gexgCU5j5Ob6J+fAH3PejZNm1LYPbXZDHev4vlJR1HWSUCLOrZkfh9jKFmhFNO37/5F/i5p8YAw6rb/DX1MRHBl9lV1sGDQ0LbyObBnVfBuYz1Pn95gfioqFlOagyj5fpalX5TzxCvVHDBM5+Z6ktscpP4bOQgFv1in9mqUGQZpyC16aIc9Lu5RJWeeD9FVEivI0wdONtBdZeTSU82QqysONGvMlEvUK9Q+2H/HQmxHW0G5pP8yRWmsWJGbRvZ744i9E3/QxnwfTH7ODavw3GVHIgPyKhNuCeXOk8GYyGQWWBoBQCVj09oEGy+XPIkhYuIqxZiHfFuF3McG301MmNHMTYWBmfR8= aws_terraform_ssh_key"
+}
