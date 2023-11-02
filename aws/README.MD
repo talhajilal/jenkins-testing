@@ -36,7 +36,7 @@ Run following commands from aws directory of this repo.
 1- git clone 
 2- cd jenkins-testing/aws
 3- run commands.
-(```)
-terraform init 
-terraform plan # ( Review plan )
-terraform apply
+
+    terraform init 
+    terraform plan # ( Review plan )
+    terraform apply
